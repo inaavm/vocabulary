@@ -348,6 +348,7 @@ const wordCollections = {
     "Kiche",
     "Luucht",
     "Meterkaree",
+    "Miwwelen",
     "Quartier",
     "Regal",
     "Salon",
