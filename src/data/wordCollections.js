@@ -78,7 +78,7 @@ const wordCollections = {
     "Zukunft"
   ],
 
-  Hobbies: [ 
+  Hobbyen: [ 
     "Bicher",
     "Bibliothek",
     "Filmer kucken",
