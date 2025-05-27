@@ -13,7 +13,9 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 export default function Page() {
   
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  //  this allows to use dynamic page 
   const { category } = useParams(); 
+
   const wordList = wordCollections[category] || []; 
   const { results, loading, error, pendingWords } = useWikipediaSearch(wordList);
   

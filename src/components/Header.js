@@ -14,14 +14,13 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  // Dynamically generate the links from the word collections keys
-  const links = Object.keys(wordCollections).map((category) => ({
-    name: category.charAt(0).toUpperCase() + category.slice(1), // Capitalize the category name
-    path: `/${category}`, // Path should match the dynamic route
-  }));
+      setIsMenuOpen(!isMenuOpen);
+    };
+    // Dynamically generate the links from the word collections keys
+    const links = Object.keys(wordCollections).map((category) => ({
+      name: category.charAt(0).toUpperCase() + category.slice(1), // Capitalize the category name
+      path: `/${category}`, // Path should match the dynamic route
+    }));
 
   return (
     <div className="header-container">
